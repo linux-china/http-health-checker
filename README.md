@@ -11,3 +11,13 @@ Please put a health.xml on your website, and execute:
      
 ### Health format
 
+The following operator support: 
+
+* contain 
+* notcontain
+* equal
+* notequal
+* regex
+* notregex
+
+'contain' is the default operator.
