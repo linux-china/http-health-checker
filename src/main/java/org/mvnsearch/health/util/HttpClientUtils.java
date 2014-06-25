@@ -51,7 +51,7 @@ public class HttpClientUtils {
      * @return jdom document
      * @throws Exception connection or xml exception
      */
-    public Document getResponseDocument(String httpUrl) throws Exception {
+    public static Document getResponseDocument(String httpUrl) throws Exception {
         GetMethod getMethod = new GetMethod(httpUrl);
         httpClient.executeMethod(getMethod);
         SAXBuilder saxBuilder = new SAXBuilder();
