@@ -1,0 +1,8 @@
+<?xml verison="1.0" encoding="utf-8" ?>
+
+<rules>
+    <checker url="http://www.aliexpress.com" method="get">
+        <validate>facebook</validate>
+        <validate header="Content-Language" operator="equals">en-US</validate>
+    </checker>
+</rules>
